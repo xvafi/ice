@@ -58,36 +58,59 @@ p2{
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
-    padding-left: 247px;
-    padding-top: 70px;
-}
-#ph1{
-    width: 200px;
-    height: 300px;
+    padding-left: 250px;
+    padding-top: 50px;
 }
 .ph1{
     padding-left: 250px;
+    padding-top: 30px;
+}
+.ph2{
+    padding-left: 250px;
+    padding-top: 7px;
+}
+#ph1{
+    width: 200px;
+    height: 250px;
+    transition: 1.2s;
+    
+}
+#ph1:hover {
+    transform: scale(1.1);
 }
 #ph2{
     width: 200px;
-    height: 300px;
+    height: 250px;
+    margin-left: 7px;
+    transition: 1.2s;
+}
+#ph2:hover {
+    transform: scale(1.1);
 }
 #ph3{
     width: 200px;
-    height: 300px;
+    height: 250px;
+    margin-left: 7px;
+    transition: 1.2s;
 }
-#ph4{
-    width: 200px;
-    height: 300px;
+#ph3:hover {
+    transform: scale(1.1);
 }
 #ph5{
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
+    transition: 1.2s;
+}
+#ph5:hover {
+    transform: scale(1.1);
 }
 #ph6{
     width: 200px;
     height: 300px;
+    margin-left: 15px;
+    transition: 1.2s;
 }
-.ph6{
-    padding-bottom: 300px;
+#ph6:hover {
+    transform: scale(1.1);
 }
+
